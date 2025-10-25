@@ -1,0 +1,105 @@
+[
+  {
+    "description": "",
+    "elements": [
+      {
+        "description": "",
+        "id": "check-motor-vehicle-stamp-duty;verify-calculation-for-motor-vehicle-stamp-duty",
+        "keyword": "Scenario",
+        "line": 3,
+        "name": "Verify calculation for motor vehicle stamp duty",
+        "steps": [
+          {
+            "keyword": "Before",
+            "hidden": true,
+            "result": {
+              "status": "passed",
+              "duration": 1638665417
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Given ",
+            "line": 4,
+            "name": "I am on the Service NSW stamp duty page",
+            "match": {
+              "location": "tests/steps/stampDuty.steps.js:8"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 2630420333
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "When ",
+            "line": 5,
+            "name": "I click the \"Check online\" button on the homepage",
+            "match": {
+              "location": "tests/steps/stampDuty.steps.js:14"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 277760459
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "line": 6,
+            "name": "I should be navigated to the calculator page",
+            "match": {
+              "location": "tests/steps/stampDuty.steps.js:19"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 10137166
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "line": 7,
+            "name": "I select Yes and enter vehicle price as \"60000\"",
+            "match": {
+              "location": "tests/steps/stampDuty.steps.js:23"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 1142631542
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "line": 8,
+            "name": "I click the Calculate button to see the stamp duty result",
+            "match": {
+              "location": "tests/steps/stampDuty.steps.js:27"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 148384583
+            }
+          },
+          {
+            "keyword": "After",
+            "hidden": true,
+            "result": {
+              "status": "passed",
+              "duration": 142246874
+            }
+          }
+        ],
+        "tags": [],
+        "type": "scenario"
+      }
+    ],
+    "id": "check-motor-vehicle-stamp-duty",
+    "line": 1,
+    "keyword": "Feature",
+    "name": "Check motor vehicle stamp duty",
+    "tags": [],
+    "uri": "tests/features/stampDuty.feature"
+  }
+]
