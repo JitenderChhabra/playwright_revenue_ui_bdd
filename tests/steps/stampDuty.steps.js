@@ -27,4 +27,5 @@ When('I select Yes and enter vehicle price as {string}', async function (price) 
 When('I click the Calculate button to see the stamp duty result', async function () {
   await calculatorPage.clickCalculate();
   console.log('* * * Popup handled successfully * * *');
+  console.log('* * * Testing * * *');
 });
